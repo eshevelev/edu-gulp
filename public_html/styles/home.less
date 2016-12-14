@@ -9,14 +9,15 @@ and open the template in the editor.
 */
 
 @color-base: #2d5e8b;
+@color-parent: #ffffff;
 
 body {
-    background: @color-base;
+    //background: @color-base;
     background: linear-gradient(top, @color-base; #cccccc);
     background: -o-linear-gradient(top, @color-base; #cccccc);
-    background: -ms-linear-gradient(top, @color-base; #cccccc);
+    background: -ms-linear-gradient(top, @color-parent; #cccccc);
     background: -moz-linear-gradient(top, @color-base; #cccccc);
-    background: -webkit-linear-gradient(top, @color-base; #cccccc);
+    background: -webkit-linear-gradient(top, @color-parent; #cccccc);
 }
 
 

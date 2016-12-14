@@ -8,12 +8,11 @@ and open the template in the editor.
     Author     : Евгений
 */
 body {
-  background: #2d5e8b;
   background: linear-gradient(top, #2d5e8b, #cccccc);
   background: -o-linear-gradient(top, #2d5e8b, #cccccc);
-  background: -ms-linear-gradient(top, #2d5e8b, #cccccc);
+  background: -ms-linear-gradient(top, #ffffff, #cccccc);
   background: -moz-linear-gradient(top, #2d5e8b, #cccccc);
-  background: -webkit-linear-gradient(top, #2d5e8b, #cccccc);
+  background: -webkit-linear-gradient(top, #ffffff, #cccccc);
 }
 h1 {
   color: blue;
